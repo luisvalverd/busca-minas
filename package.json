@@ -1,0 +1,25 @@
+{
+  "name": "buscaminas",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev:serve": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3"
+  },
+  "description": "creacin del juego del buscaminad",
+  "main": "app.js",
+  "author": "luis valverde",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.15"
+  }
+}
